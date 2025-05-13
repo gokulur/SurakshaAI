@@ -146,8 +146,9 @@ h6 {
   --background-color: rgba(0, 0, 0, 0.8);
   --heading-color: #ffffff;
   --contrast-color: #ffffff;
-  color: var(--default-color);
-  background-color: var(--background-color);
+  color: var(--default-color ); 
+  background-color: rgba(0, 0, 0, 0.8);
+  
   padding: 10px 0;
   transition: all 0.5s;
   z-index: 997;
@@ -1713,6 +1714,4 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+ 
